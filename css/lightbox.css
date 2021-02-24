@@ -28,7 +28,7 @@ body.lb-disable-scrolling {
   display: block;
   height: auto;
   max-width: inherit;
-  max-height: none;
+  max-height: 75vh;
   border-radius: 0px;
 
   /* Image border */
@@ -70,8 +70,8 @@ body.lb-disable-scrolling {
 
 .lb-cancel {
   display: block;
-  width: 48px;
-  height: 48px;
+  width: 32px;
+  height: 32px;
   margin: 0 auto;
   background: url(https://github.com/smappio/smartlinks/blob/main/images/loading.gif?raw=true) no-repeat;
 }
@@ -166,7 +166,7 @@ body.lb-disable-scrolling {
 .lb-data .lb-caption {
   font-size: 14px;
   font-weight: bold;
-  line-height: 1em;
+  line-height: 1.2em;
 }
 
 .lb-data .lb-caption a {
