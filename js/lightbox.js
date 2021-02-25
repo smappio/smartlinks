@@ -42,14 +42,14 @@
   // http://lokeshdhakar.com/projects/lightbox2/index.html#options
   Lightbox.defaults = {
     albumLabel: 'Image %1 sur %2',
-    alwaysShowNavOnTouchDevices: true,
-    fadeDuration: 200,
+    alwaysShowNavOnTouchDevices: false,
+    fadeDuration: 100,
     fitImagesInViewport: true,
-    imageFadeDuration: 200,
+    imageFadeDuration: 100,
     // maxWidth: 800,
     // maxHeight: 600,
     positionFromTop: 50,
-    resizeDuration: 200,
+    resizeDuration: 100,
     showImageNumberLabel: true,
     wrapAround: true,
     disableScrolling: true,
