@@ -1,3 +1,3 @@
 $(function() {
-  $('.masonry').masonry();
+  $('[class*=".gallery-"]').masonry();
 });
