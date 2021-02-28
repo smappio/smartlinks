@@ -1,3 +1,7 @@
-$(function() {
-  $('[class*=".gallery-"]').masonry();
+$(function(){        
+  $("div[class*=gallery-]").each(
+    function(){
+        $(this).masonry();
+    }
+  )
 });
