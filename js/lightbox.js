@@ -254,9 +254,7 @@
     }
 
     // Position Lightbox
-    //Modification vertical position SMAPP - var top  = $window.scrollTop() + this.options.positionFromTop;
-    var hlight = this.$lightbox.height();
-    top = $window.scrollTop() + ($window.height() / 2) - ( hlight / 2);
+    var top  = $window.scrollTop() + this.options.positionFromTop;
     var left = $window.scrollLeft();
     this.$lightbox.css({
       top: top + 'px',
