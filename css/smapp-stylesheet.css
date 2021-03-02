@@ -10045,11 +10045,12 @@ button:focus {
   color: #000;
   background-color: #fff;
   border-color: #fcfcfc;
-  -webkit-transform: scale(1.02);
-  -moz-transform: scale(1.02);
-  -o-transform: scale(1.02);
-  -ms-transform: scale(1.02);
-  transform: scale(1.02);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: 650ms;
 }
 
 .btn:focus,
@@ -10061,11 +10062,12 @@ button:focus {
   color: #000;
   background-color: #fff;
   border-color: #fcfcfc;
-  -webkit-transform: scale(1.02);
-  -moz-transform: scale(1.02);
-  -o-transform: scale(1.02);
-  -ms-transform: scale(1.02);
-  transform: scale(1.02);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: 650ms;
 }
 
 .btn:active,
