@@ -10043,8 +10043,9 @@ button:focus {
 .btn:hover,
 .btn.btn-default:hover {
   color: #fff;
-  background-color: #000000;
-  border-color: #7a7a7a;
+  background-color: #fff;
+  border-color: #fcfcfc;
+  transform: scale(1.2);
 }
 
 .btn:focus,
@@ -10054,8 +10055,9 @@ button:focus {
 .btn.btn-default.focus,
 .btn.btn-default:hover {
   color: #fff;
-  background-color: #000000;
-  border-color: #7a7a7a;
+  background-color: #fff;
+  border-color: #fcfcfc;
+  transform: scale(1.2);
 }
 
 .btn:active,
