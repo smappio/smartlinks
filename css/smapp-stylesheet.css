@@ -59,6 +59,18 @@ img {
   border-style: none;
 }
 
+.item {
+    border: 1px solid #eee;
+    box-shadow: 0 0 2px -3px #ccc;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.col {
+    padding-right: 0px;
+    padding-left: 0px;
+}
 
 button {
   border-radius: 0;
@@ -10021,11 +10033,11 @@ button:focus {
 .btn,
 .btn.btn-default {
   color: #000000;
-  background-color: #FFFFFF;
+  background-color: #919191;
   border-color: #000000;
-    -webkit-box-shadow: 0 10px 6px -6px #777;
-     -moz-box-shadow: 0 10px 6px -6px #777;
-          box-shadow: 0 10px 6px -6px #777;
+    -webkit-box-shadow: 0 10px 6px -6px #444;
+     -moz-box-shadow: 0 10px 6px -6px #444;
+          box-shadow: 0 10px 6px -6px #444;
 }
 
 .btn:hover,
@@ -10057,9 +10069,9 @@ button:focus {
   color: #fff;
   background-color: #919191;
   border-color: #7a7a7a;
-    -webkit-box-shadow: 0 10px 6px -6px #777;
-     -moz-box-shadow: 0 10px 6px -6px #777;
-          box-shadow: 0 10px 6px -6px #777;
+    -webkit-box-shadow: 0 10px 6px -6px #444;
+     -moz-box-shadow: 0 10px 6px -6px #444;
+          box-shadow: 0 10px 6px -6px #444;
 }
 
 .btn:active:hover,
@@ -10128,9 +10140,9 @@ button:focus {
 .btn.btn-default:focus,
 .btn.btn-default:active,
 .btn.btn-default:hover {
-    -webkit-box-shadow: 0 10px 6px -6px #777;
-     -moz-box-shadow: 0 10px 6px -6px #777;
-          box-shadow: 0 10px 6px -6px #777;
+    -webkit-box-shadow: 0 10px 6px -6px #444;
+     -moz-box-shadow: 0 10px 6px -6px #444;
+          box-shadow: 0 10px 6px -6px #444;
 }
 
 .btn.btn-link,
