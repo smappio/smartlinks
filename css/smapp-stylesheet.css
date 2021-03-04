@@ -4615,6 +4615,7 @@ tbody.collapse.show {
   display: flex;
   flex-direction: column;
   min-width: 0;
+  max-height: 75vh;
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
@@ -4711,8 +4712,8 @@ tbody.collapse.show {
 }
 
 .card-img {
-  max-height: 75vh;
-  width: auto;
+  max-height: 100%;
+  max-width: 100%
   border-radius: calc(0.25rem - 1px);
 }
 
