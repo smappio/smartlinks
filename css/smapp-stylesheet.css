@@ -11670,8 +11670,6 @@ label {
 }
 
 .title {
-  margin-top: 30px;
-  margin-bottom: 25px;
   min-height: 32px;
 }
 
@@ -18121,7 +18119,7 @@ footer .pull-center {
 }
 
 .profile-page .description {
-  margin: 1.071rem auto 0;
+  margin: auto;
   /* max-width: 600px; */
   max-width: 90%;
 }
