@@ -15263,12 +15263,15 @@ small,
 .footer-big h4 a,
 .media .media-heading,
 .media .media-heading a {
-  color: #ffffff;
   text-decoration: none;
 }
 
 h2.title {
   margin-bottom: 10px !important;
+}
+
+h2.caption {
+  margin-bottom: 5px !important;
 }
 
 .description, .free-text,
