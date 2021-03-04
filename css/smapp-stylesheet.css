@@ -4712,6 +4712,7 @@ tbody.collapse.show {
 
 .card-img {
   max-height: 75vh;
+  width: auto;
   border-radius: calc(0.25rem - 1px);
 }
 
