@@ -11936,6 +11936,10 @@ label {
     margin-top: calc(140px - 100vh);
     width: 90;
   }
+  .profile-page .description {
+    margin: auto;
+    max-width: 92%;
+  }
 
   .form-group.is-focused .bootstrap-datetimepicker-widget {
     left: -32px !important;
@@ -18099,7 +18103,6 @@ footer .pull-center {
 
 .profile-page .description {
   margin: auto;
-  max-width: 90%;
 }
 
 
