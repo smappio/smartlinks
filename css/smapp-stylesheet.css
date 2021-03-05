@@ -11474,7 +11474,6 @@ label {
   margin: calc(140px - 100vh) 30px 0px;
   border-radius: 10px;
   max-width: 960px;
-  width: 95%;
   box-shadow: 0 2px 2px -5px rgba(0, 0, 0, 0.10), 0 2px 2px -5px rgba(0, 0, 0, 0.10), 0 2px 2px -5px rgba(0, 0, 0, 0.10);
 }
 
@@ -11938,6 +11937,7 @@ label {
 
   .main.main-raised {
     margin-top: calc(140px - 100vh);
+    width: 90;
   }
 
   .form-group.is-focused .bootstrap-datetimepicker-widget {
