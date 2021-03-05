@@ -2,10 +2,7 @@
 
 
 *,
-*::before,  	text-align:center;
-  	background:#ccc;
-  	border:1px solid #000;
-  	vertical-align:middle;
+*::before,
 *::after {
   box-sizing: border-box!important;
 }
@@ -15278,6 +15275,7 @@ h2.caption {
 .card-description,
 .footer-big p {
   color: #ffffff;
+  
 }
 
 .text-warning {
@@ -18101,6 +18099,7 @@ footer .pull-center {
 
 .profile-page .description {
   margin: auto;
+  max-width: 90%;
 }
 
 
