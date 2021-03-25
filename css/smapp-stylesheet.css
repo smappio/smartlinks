@@ -1,6 +1,5 @@
 <style>
 
-
 *,
 *::before,
 *::after {
@@ -11468,7 +11467,7 @@ label {
 }
 
 .main-raised {
-  margin: calc(140px - 100vh) 30px 0px;
+  margin: 270px 30px 0px;
   border-radius: 10px;
   max-width: 960px;
   box-shadow: 0 2px 2px -5px rgba(0, 0, 0, 0.10), 0 2px 2px -5px rgba(0, 0, 0, 0.10), 0 2px 2px -5px rgba(0, 0, 0, 0.10);
@@ -11535,16 +11534,6 @@ label {
 .section-signup .card-signup .card-body .input-group {
   padding-bottom: 7px;
   margin: 27px 0 0 0;
-}
-
-.offline-doc .page-header,
-.offline-free-doc .page-header {
-  height: 100vh !important;
-}
-
-.offline-doc .page-header:after,
-.offline-free-doc .page-header:after {
-  background: rgba(0, 0, 0, 0.5) !important;
 }
 
 .offline-doc .footer,
@@ -11915,9 +11904,6 @@ label {
 }
 
 @media all and (max-width: 375px) {
-  .page-header {
-    height: calc(100vh + 270px);
-  }
 
   .index-page {
     overflow-x: hidden;
@@ -11933,7 +11919,7 @@ label {
   }
 
   .main.main-raised {
-    margin-top: calc(140px - 100vh);
+    margin-top: 130px;
     width: 90;
   }
   .profile-page .description {
@@ -16614,63 +16600,6 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
   transition: opacity 0.1s linear 0s !important;
 }
 
-.page-header {
-  height: 100vh;
-  background-position: center center;
-  background-size: cover;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  display: flex;
-  align-items: center;
-}
-
-.page-header .page-header-image {
-  position: absolute;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-}
-
-.page-header .content-center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  z-index: 2;
-  -ms-transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: #FFFFFF;
-  padding: 0 15px;
-  width: 100%;
-  max-width: 880px;
-}
-
-.page-header .carousel .carousel-indicators {
-  bottom: 60px;
-}
-
-.page-header>.container {
-  color: #ffffff;
-}
-
-.page-header .title {
-  color: #ffffff;
-}
-
-.page-header.header-small {
-  height: 65vh;
-  min-height: 65vh;
-}
-
-.page-header .iframe-container iframe {
-  width: 100%;
-  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
-}
-
 .header-filter {
   position: relative;
 }
@@ -18040,11 +17969,6 @@ footer .pull-center {
   margin-bottom: 30px;
 }
 
-.index-page .page-header {
-  height: 90vh;
-  overflow: hidden;
-}
-
 .index-page .brand {
   color: #ffffff;
   text-align: center;
@@ -18071,10 +17995,6 @@ footer .pull-center {
   padding: 70px 0;
 }
 
-.profile-page .page-header {
-  height: 100vh;
-  background-position: center center;
-}
 
 .profile-page .profile {
   text-align: center;
@@ -18171,43 +18091,6 @@ footer .pull-center {
   margin: 0 auto;
 }
 
-.signup-page .page-header {
-  min-height: 100vh;
-  height: auto;
-  display: inherit;
-}
-
-.signup-page .page-header .container {
-  padding-top: 20vh;
-}
-
-.signup-page .card-signup {
-  border-radius: 6px;
-  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
-  margin-bottom: 100px;
-  padding: 40px 0px;
-}
-
-.signup-page .info-horizontal {
-  padding: 0px 0px 20px;
-}
-
-.signup-page .social .btn {
-  margin: 5px;
-}
-
-.signup-page .social h4 {
-  margin-top: 20px;
-}
-
-.signup-page .footer .container {
-  padding: 0;
-}
-
-.signup-page .footer .copyright,
-.signup-page .footer a {
-  color: #fff;
-}
 
 @media all and (max-width: 991px) {
 
@@ -18784,20 +18667,6 @@ footer .pull-center {
   .card.card-form-horizontal .input-group {
     padding-bottom: 10px;
   }
-
-  .presentation-page #cd-vertical-nav,
-  .index-page #cd-vertical-nav,
-  .section-page #cd-vertical-nav {
-    display: none;
-  }
-
-  .index-page .cd-section .tim-typo .tim-note {
-    width: 60px;
-  }
-
-  .login-page .page-header>.container {
-    padding-bottom: 200px;
-  }
 }
 
 @media screen and (max-width: 400px) {
@@ -18818,7 +18687,6 @@ footer .pull-center {
 
 @media screen and (max-width: 991px) {
 
-  .menu-on-left .page-header,
   .menu-on-left .main,
   .menu-on-left .navbar>div {
     -webkit-transform: translate3d(0px, 0, 0);
@@ -18846,7 +18714,6 @@ footer .pull-center {
     top: -15px;
   }
 
-  .nav-open .menu-on-left .page-header,
   .nav-open .menu-on-left .main {
     -webkit-transform: translate3d(230px, 0, 0);
     -moz-transform: translate3d(230px, 0, 0);
