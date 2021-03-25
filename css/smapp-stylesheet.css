@@ -7178,6 +7178,10 @@ a .material-icons {
   }
 }
 
+.profile-page  {
+  height: 100vh;
+  background-position: center center;
+}
 
 @media all and (max-width: 375px) {
   .main.main-raised {
@@ -8635,25 +8639,10 @@ footer .pull-center {
   margin-top: -80px;
 }
 
-.profile-page .follow {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
 .profile-page .description {
   margin: auto;
 }
 
-
-.profile-page .follow .btn-fab {
-  margin-top: -28px;
-}
-
-.profile-page .card-background .content {
-  padding: 30% 0;
-  min-width: 160px;
-}
 
 @media all and (max-width: 991px) {
 
