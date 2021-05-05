@@ -264,19 +264,19 @@ h1,
 h2,
 .h2 {
   font-size: 1.2rem !important;
-  font-size: 3vmin !important;
+  font-size: 3vmax !important;
 }
 
 h3,
 .h3 {
   font-size: 1.1rem! important;
-  font-size: 2.5vmin !important;
+  font-size: 2.5vmax !important;
 }
 
 p,
 .p {
   font-size: 1rem! important;
-  font-size: 2vmin !important;
+  font-size: 2vmax !important;
 }
 
 hr {
