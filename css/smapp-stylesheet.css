@@ -258,25 +258,25 @@ h3,
 h1,
 .h1 {
   font-size: 1.5rem !important;
-  font-size: 6vmax !important;
+  font-size: 5vmax !important;
 }
 
 h2,
 .h2 {
   font-size: 1.2rem !important;
-  font-size: 3vmax !important;
+  font-size: 3vmin !important;
 }
 
 h3,
 .h3 {
   font-size: 1.1rem! important;
-  font-size: 2.5vmax !important;
+  font-size: 2.5vmin !important;
 }
 
 p,
 .p {
   font-size: 1rem! important;
-  font-size: 2vmax !important;
+  font-size: 2vmin !important;
 }
 
 hr {
