@@ -7180,7 +7180,7 @@ a .material-icons {
 }
 
 .page-header {
-  height: 100vh;
+  height: 80vh;
   background-position: center center;
   background-size: cover;
   margin: 0;
@@ -7207,7 +7207,7 @@ a .material-icons {
 }
 
 .header-filter::before {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.3);
 }
 
 .header-filter .container {
