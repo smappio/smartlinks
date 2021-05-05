@@ -255,36 +255,6 @@ h3,
   color: inherit;
 }
 
-/* Declare text styles */
-h1 {
-  font-size: 2em;
-}
-h2 {
-  font-size: 1.5em;
-}
-h3 {
-  font-size: 1.3em;
-}
-p {
-  font-size: 1em;
-}
-
-/* Increase font sizes 1.5x on bigger screens */
-@media (min-width: 48rem) {
-  h1 {
-    font-size: 3em;
-  }
-  h2 {
-    font-size: 2.25em;
-  }
-  h3 {
-    font-size: 1.8em;
-  }
-  p {
-    font-size: 1.5em;
-  }
-}
-
 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -923,7 +893,7 @@ fieldset:disabled a.btn {
 .btn-sm,
 .btn-group-sm>.btn {
   padding: 0.40625rem 1.25rem;
-  font-size: 0.875rem;
+  font-size: 1rem;
   line-height: 1.5;
   border-radius: 0.1875rem;
 }
@@ -5174,7 +5144,7 @@ button:focus {
   position: relative;
   padding: 12px 30px;
   margin: 0;
-  font-size: .75rem;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 1.428571;
   text-decoration: none;
@@ -6854,7 +6824,7 @@ button:focus {
 .btn-group-lg>.btn,
 .btn-group-lg .btn {
   padding: 1.125rem 2.25rem;
-  font-size: 0.875rem;
+  font-size: 1rem;
   line-height: 1.333333;
   border-radius: 0.2rem;
 }
@@ -6863,7 +6833,7 @@ button:focus {
 .btn-group-sm>.btn,
 .btn-group-sm .btn {
   padding: 0.40625rem 1.25rem;
-  font-size: 0.6875rem;
+  font-size: 1rem;
   line-height: 1.5;
   border-radius: 0.2rem;
 }
