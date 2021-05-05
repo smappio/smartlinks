@@ -255,28 +255,34 @@ h3,
   color: inherit;
 }
 
-h1,
-.h1 {
-  font-size: 1.5rem !important;
-  font-size: 5vmax !important;
+/* Declare text styles */
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.5em;
+}
+h3 {
+  font-size: 1.3em;
+}
+p {
+  font-size: 1em;
 }
 
-h2,
-.h2 {
-  font-size: 1.2rem !important;
-  font-size: 3vmax !important;
-}
-
-h3,
-.h3 {
-  font-size: 1.1rem! important;
-  font-size: 2.5vmax !important;
-}
-
-p,
-.p {
-  font-size: 1rem! important;
-  font-size: 2vmax !important;
+/* Increase font sizes 1.5x on bigger screens */
+@media (min-width: 48rem) {
+  h1 {
+    font-size: 3em;
+  }
+  h2 {
+    font-size: 2.25em;
+  }
+  h3 {
+    font-size: 1.8em;
+  }
+  p {
+    font-size: 1.5em;
+  }
 }
 
 hr {
