@@ -906,6 +906,7 @@ fieldset:disabled a.btn {
   margin-top: 0.5rem;
 }
 
+/*
 .collapse {
   display: none!important;
 }
@@ -920,6 +921,7 @@ fieldset:disabled a.btn {
   overflow: hidden;
   transition: height 0.35s ease;
 }
+*/
 
 .btn-group,
 .btn-group-vertical {
